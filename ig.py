@@ -81,6 +81,7 @@ for owner in top_performers['Contact Owner']:
             go.Scatter(
                 x=filtered_summary_df[filtered_summary_df['Contact Owner'] == owner][stage],
                 y=filtered_summary_df[filtered_summary_df['Contact Owner'] == owner]['Contact Owner'],
+                mode='lines+markers',
                 name=f'Top Performer: {owner} ({stage_name})',
                 line=dict(color='gold', width=4)
             ),
