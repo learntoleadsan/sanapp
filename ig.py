@@ -10,7 +10,7 @@ df = pd.read_csv(r'C:\GENAI\rocketramp\Project_Quantum_Leap.csv')
 # st.write("Column Names:", df.columns)
 
 # Filter relevant contact owners
-contact_owners = ['dan@rocketramp.ai', 'adam@rocketramp.ai', 'alex@rocketramp.ai', 'chris@rocketramp.ai']
+contact_owners = ['san', 'man', 'suj', 'sou']
 df = df[df['Contact Owner'].isin(contact_owners)]
 
 # Parse date columns
