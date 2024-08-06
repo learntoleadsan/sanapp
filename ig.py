@@ -4,13 +4,13 @@ import plotly.subplots as sp
 import streamlit as st
 
 # Load the data
-df = pd.read_csv(r'C:\GENAI\rocketramp\Project_Quantum_Leap.csv')
+df = pd.read_csv(r'C:\GENAI\myfile.csv')
 
 # Display the column names to check for the correct ones
 # st.write("Column Names:", df.columns)
 
 # Filter relevant contact owners
-contact_owners = ['dan@rocketramp.ai', 'adam@rocketramp.ai', 'alex@rocketramp.ai', 'chris@rocketramp.ai']
+contact_owners = ['san', 'man', 'suj', 'sou']
 df = df[df['Contact Owner'].isin(contact_owners)]
 
 # Parse date columns
