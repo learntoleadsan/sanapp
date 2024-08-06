@@ -4,7 +4,7 @@ import plotly.subplots as sp
 import streamlit as st
 
 # Load the data
-df = pd.read_csv(r'C:\GENAI\rocketramp\Project_Quantum_Leap.csv')
+df = pd.read_csv(r'C:\GENAI\myfile.csv')
 
 # Display the column names to check for the correct ones
 # st.write("Column Names:", df.columns)
